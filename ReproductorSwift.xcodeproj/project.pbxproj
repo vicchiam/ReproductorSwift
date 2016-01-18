@@ -8,20 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		1DEDBE611C4D91D1004C0669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDBE601C4D91D1004C0669 /* AppDelegate.swift */; };
-		1DEDBE631C4D91D1004C0669 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDBE621C4D91D1004C0669 /* ViewController.swift */; };
 		1DEDBE661C4D91D1004C0669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE641C4D91D1004C0669 /* Main.storyboard */; };
 		1DEDBE681C4D91D1004C0669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE671C4D91D1004C0669 /* Assets.xcassets */; };
 		1DEDBE6B1C4D91D1004C0669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE691C4D91D1004C0669 /* LaunchScreen.storyboard */; };
+		1DEDBE731C4D93B1004C0669 /* TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDBE721C4D93B1004C0669 /* TVC.swift */; };
+		1DEDBE771C4D9484004C0669 /* albeniz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE761C4D9484004C0669 /* albeniz.jpg */; };
+		1DEDBE791C4D94BF004C0669 /* Cancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDBE781C4D94BF004C0669 /* Cancion.swift */; };
+		1DEDBE7B1C4D998A004C0669 /* Detalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDBE7A1C4D998A004C0669 /* Detalle.swift */; };
+		1DEDBE7D1C4D9D03004C0669 /* abinoni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE7C1C4D9D03004C0669 /* abinoni.jpg */; };
+		1DEDBE861C4D9D43004C0669 /* bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE7E1C4D9D43004C0669 /* bach.jpg */; };
+		1DEDBE871C4D9D43004C0669 /* beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE7F1C4D9D43004C0669 /* beethoven.jpg */; };
+		1DEDBE881C4D9D43004C0669 /* eriksatie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE801C4D9D43004C0669 /* eriksatie.jpg */; };
+		1DEDBE891C4D9D43004C0669 /* monteverdi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE811C4D9D43004C0669 /* monteverdi.jpg */; };
+		1DEDBE8A1C4D9D43004C0669 /* mozart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE821C4D9D43004C0669 /* mozart.jpg */; };
+		1DEDBE8B1C4D9D43004C0669 /* schubert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE831C4D9D43004C0669 /* schubert.jpg */; };
+		1DEDBE8C1C4D9D43004C0669 /* tchaikovsky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE841C4D9D43004C0669 /* tchaikovsky.jpg */; };
+		1DEDBE8D1C4D9D43004C0669 /* vivaldi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE851C4D9D43004C0669 /* vivaldi.jpg */; };
+		1DEDBEA71C4DAAFF004C0669 /* albeniz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE9A1C4DAAFF004C0669 /* albeniz.mp3 */; };
+		1DEDBEA81C4DAAFF004C0669 /* albioni.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE9B1C4DAAFF004C0669 /* albioni.mp3 */; };
+		1DEDBEA91C4DAAFF004C0669 /* bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE9C1C4DAAFF004C0669 /* bach.mp3 */; };
+		1DEDBEAA1C4DAAFF004C0669 /* beethoven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE9D1C4DAAFF004C0669 /* beethoven.mp3 */; };
+		1DEDBEAB1C4DAAFF004C0669 /* montverdi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE9E1C4DAAFF004C0669 /* montverdi.mp3 */; };
+		1DEDBEAC1C4DAAFF004C0669 /* mozart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBE9F1C4DAAFF004C0669 /* mozart.mp3 */; };
+		1DEDBEAD1C4DAAFF004C0669 /* satie_gnossienne_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBEA01C4DAAFF004C0669 /* satie_gnossienne_3.mp3 */; };
+		1DEDBEAE1C4DAAFF004C0669 /* schubert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBEA11C4DAAFF004C0669 /* schubert.mp3 */; };
+		1DEDBEAF1C4DAAFF004C0669 /* tchaikovsky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBEA21C4DAAFF004C0669 /* tchaikovsky.mp3 */; };
+		1DEDBEB01C4DAAFF004C0669 /* vivaldi_autumn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBEA31C4DAAFF004C0669 /* vivaldi_autumn.mp3 */; };
+		1DEDBEB11C4DAAFF004C0669 /* vivaldi_spring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBEA41C4DAAFF004C0669 /* vivaldi_spring.mp3 */; };
+		1DEDBEB21C4DAAFF004C0669 /* vivaldi_summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBEA51C4DAAFF004C0669 /* vivaldi_summer.mp3 */; };
+		1DEDBEB31C4DAAFF004C0669 /* vivaldi_winter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBEA61C4DAAFF004C0669 /* vivaldi_winter.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1DEDBE5D1C4D91D1004C0669 /* ReproductorSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproductorSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEDBE601C4D91D1004C0669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DEDBE621C4D91D1004C0669 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1DEDBE651C4D91D1004C0669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DEDBE671C4D91D1004C0669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DEDBE6A1C4D91D1004C0669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DEDBE6C1C4D91D1004C0669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEDBE721C4D93B1004C0669 /* TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC.swift; sourceTree = "<group>"; };
+		1DEDBE761C4D9484004C0669 /* albeniz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albeniz.jpg; sourceTree = "<group>"; };
+		1DEDBE781C4D94BF004C0669 /* Cancion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cancion.swift; path = ../Cancion.swift; sourceTree = "<group>"; };
+		1DEDBE7A1C4D998A004C0669 /* Detalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detalle.swift; sourceTree = "<group>"; };
+		1DEDBE7C1C4D9D03004C0669 /* abinoni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abinoni.jpg; sourceTree = "<group>"; };
+		1DEDBE7E1C4D9D43004C0669 /* bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bach.jpg; sourceTree = "<group>"; };
+		1DEDBE7F1C4D9D43004C0669 /* beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beethoven.jpg; sourceTree = "<group>"; };
+		1DEDBE801C4D9D43004C0669 /* eriksatie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eriksatie.jpg; sourceTree = "<group>"; };
+		1DEDBE811C4D9D43004C0669 /* monteverdi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monteverdi.jpg; sourceTree = "<group>"; };
+		1DEDBE821C4D9D43004C0669 /* mozart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mozart.jpg; sourceTree = "<group>"; };
+		1DEDBE831C4D9D43004C0669 /* schubert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = schubert.jpg; sourceTree = "<group>"; };
+		1DEDBE841C4D9D43004C0669 /* tchaikovsky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tchaikovsky.jpg; sourceTree = "<group>"; };
+		1DEDBE851C4D9D43004C0669 /* vivaldi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vivaldi.jpg; sourceTree = "<group>"; };
+		1DEDBE9A1C4DAAFF004C0669 /* albeniz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = albeniz.mp3; sourceTree = "<group>"; };
+		1DEDBE9B1C4DAAFF004C0669 /* albioni.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = albioni.mp3; sourceTree = "<group>"; };
+		1DEDBE9C1C4DAAFF004C0669 /* bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach.mp3; sourceTree = "<group>"; };
+		1DEDBE9D1C4DAAFF004C0669 /* beethoven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beethoven.mp3; sourceTree = "<group>"; };
+		1DEDBE9E1C4DAAFF004C0669 /* montverdi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = montverdi.mp3; sourceTree = "<group>"; };
+		1DEDBE9F1C4DAAFF004C0669 /* mozart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mozart.mp3; sourceTree = "<group>"; };
+		1DEDBEA01C4DAAFF004C0669 /* satie_gnossienne_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = satie_gnossienne_3.mp3; sourceTree = "<group>"; };
+		1DEDBEA11C4DAAFF004C0669 /* schubert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = schubert.mp3; sourceTree = "<group>"; };
+		1DEDBEA21C4DAAFF004C0669 /* tchaikovsky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tchaikovsky.mp3; sourceTree = "<group>"; };
+		1DEDBEA31C4DAAFF004C0669 /* vivaldi_autumn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vivaldi_autumn.mp3; sourceTree = "<group>"; };
+		1DEDBEA41C4DAAFF004C0669 /* vivaldi_spring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vivaldi_spring.mp3; sourceTree = "<group>"; };
+		1DEDBEA51C4DAAFF004C0669 /* vivaldi_summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vivaldi_summer.mp3; sourceTree = "<group>"; };
+		1DEDBEA61C4DAAFF004C0669 /* vivaldi_winter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vivaldi_winter.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +104,47 @@
 		1DEDBE5F1C4D91D1004C0669 /* ReproductorSwift */ = {
 			isa = PBXGroup;
 			children = (
+				1DEDBE781C4D94BF004C0669 /* Cancion.swift */,
+				1DEDBE7A1C4D998A004C0669 /* Detalle.swift */,
+				1DEDBE741C4D9416004C0669 /* Resources */,
 				1DEDBE601C4D91D1004C0669 /* AppDelegate.swift */,
-				1DEDBE621C4D91D1004C0669 /* ViewController.swift */,
 				1DEDBE641C4D91D1004C0669 /* Main.storyboard */,
 				1DEDBE671C4D91D1004C0669 /* Assets.xcassets */,
 				1DEDBE691C4D91D1004C0669 /* LaunchScreen.storyboard */,
 				1DEDBE6C1C4D91D1004C0669 /* Info.plist */,
+				1DEDBE721C4D93B1004C0669 /* TVC.swift */,
 			);
 			path = ReproductorSwift;
+			sourceTree = "<group>";
+		};
+		1DEDBE741C4D9416004C0669 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DEDBE9A1C4DAAFF004C0669 /* albeniz.mp3 */,
+				1DEDBE9B1C4DAAFF004C0669 /* albioni.mp3 */,
+				1DEDBE9C1C4DAAFF004C0669 /* bach.mp3 */,
+				1DEDBE9D1C4DAAFF004C0669 /* beethoven.mp3 */,
+				1DEDBE9E1C4DAAFF004C0669 /* montverdi.mp3 */,
+				1DEDBE9F1C4DAAFF004C0669 /* mozart.mp3 */,
+				1DEDBEA01C4DAAFF004C0669 /* satie_gnossienne_3.mp3 */,
+				1DEDBEA11C4DAAFF004C0669 /* schubert.mp3 */,
+				1DEDBEA21C4DAAFF004C0669 /* tchaikovsky.mp3 */,
+				1DEDBEA31C4DAAFF004C0669 /* vivaldi_autumn.mp3 */,
+				1DEDBEA41C4DAAFF004C0669 /* vivaldi_spring.mp3 */,
+				1DEDBEA51C4DAAFF004C0669 /* vivaldi_summer.mp3 */,
+				1DEDBEA61C4DAAFF004C0669 /* vivaldi_winter.mp3 */,
+				1DEDBE761C4D9484004C0669 /* albeniz.jpg */,
+				1DEDBE7C1C4D9D03004C0669 /* abinoni.jpg */,
+				1DEDBE7E1C4D9D43004C0669 /* bach.jpg */,
+				1DEDBE7F1C4D9D43004C0669 /* beethoven.jpg */,
+				1DEDBE801C4D9D43004C0669 /* eriksatie.jpg */,
+				1DEDBE811C4D9D43004C0669 /* monteverdi.jpg */,
+				1DEDBE821C4D9D43004C0669 /* mozart.jpg */,
+				1DEDBE831C4D9D43004C0669 /* schubert.jpg */,
+				1DEDBE841C4D9D43004C0669 /* tchaikovsky.jpg */,
+				1DEDBE851C4D9D43004C0669 /* vivaldi.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +206,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEDBEAE1C4DAAFF004C0669 /* schubert.mp3 in Resources */,
+				1DEDBE871C4D9D43004C0669 /* beethoven.jpg in Resources */,
 				1DEDBE6B1C4D91D1004C0669 /* LaunchScreen.storyboard in Resources */,
+				1DEDBE861C4D9D43004C0669 /* bach.jpg in Resources */,
+				1DEDBEAC1C4DAAFF004C0669 /* mozart.mp3 in Resources */,
 				1DEDBE681C4D91D1004C0669 /* Assets.xcassets in Resources */,
+				1DEDBEA91C4DAAFF004C0669 /* bach.mp3 in Resources */,
+				1DEDBE8D1C4D9D43004C0669 /* vivaldi.jpg in Resources */,
+				1DEDBE7D1C4D9D03004C0669 /* abinoni.jpg in Resources */,
+				1DEDBE891C4D9D43004C0669 /* monteverdi.jpg in Resources */,
+				1DEDBEB21C4DAAFF004C0669 /* vivaldi_summer.mp3 in Resources */,
+				1DEDBEB01C4DAAFF004C0669 /* vivaldi_autumn.mp3 in Resources */,
+				1DEDBEA81C4DAAFF004C0669 /* albioni.mp3 in Resources */,
+				1DEDBE8C1C4D9D43004C0669 /* tchaikovsky.jpg in Resources */,
+				1DEDBEAA1C4DAAFF004C0669 /* beethoven.mp3 in Resources */,
+				1DEDBEA71C4DAAFF004C0669 /* albeniz.mp3 in Resources */,
+				1DEDBE8A1C4D9D43004C0669 /* mozart.jpg in Resources */,
+				1DEDBEAB1C4DAAFF004C0669 /* montverdi.mp3 in Resources */,
+				1DEDBEB11C4DAAFF004C0669 /* vivaldi_spring.mp3 in Resources */,
+				1DEDBE881C4D9D43004C0669 /* eriksatie.jpg in Resources */,
+				1DEDBEAF1C4DAAFF004C0669 /* tchaikovsky.mp3 in Resources */,
+				1DEDBEB31C4DAAFF004C0669 /* vivaldi_winter.mp3 in Resources */,
+				1DEDBEAD1C4DAAFF004C0669 /* satie_gnossienne_3.mp3 in Resources */,
 				1DEDBE661C4D91D1004C0669 /* Main.storyboard in Resources */,
+				1DEDBE771C4D9484004C0669 /* albeniz.jpg in Resources */,
+				1DEDBE8B1C4D9D43004C0669 /* schubert.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DEDBE631C4D91D1004C0669 /* ViewController.swift in Sources */,
+				1DEDBE791C4D94BF004C0669 /* Cancion.swift in Sources */,
+				1DEDBE731C4D93B1004C0669 /* TVC.swift in Sources */,
 				1DEDBE611C4D91D1004C0669 /* AppDelegate.swift in Sources */,
+				1DEDBE7B1C4D998A004C0669 /* Detalle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
