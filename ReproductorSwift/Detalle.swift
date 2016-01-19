@@ -35,7 +35,7 @@ class Detalle: UIViewController {
         let sonidoURL = NSBundle.mainBundle().URLForResource(cancion.sonido, withExtension: "mp3")
         do{
             try reproductor = AVAudioPlayer(contentsOfURL: sonidoURL!)
-            reproductor.volume = 1.5
+            reproductor.volume = 1
             reproductor.play()
         }
         catch {

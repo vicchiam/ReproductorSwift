@@ -31,7 +31,15 @@
                             <outlet property="delegate" destination="bwh-C3-D6k" id="nho-pv-GQp"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Vek-VO-NhG"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="Vek-VO-NhG">
+                        <barButtonItem key="rightBarButtonItem" title="Shuffle" id="3AK-AZ-Whv">
+                            <connections>
+                                <segue destination="TMM-Sb-oKL" kind="show" id="yuU-Hy-dSi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P3q-U6-RxK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,7 +90,7 @@
                                     <action selector="stop" destination="TMM-Sb-oKL" eventType="touchUpInside" id="CgY-5G-QMq"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.5" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="hQw-sc-Rep">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="hQw-sc-Rep">
                                 <rect key="frame" x="219" y="483" width="203" height="31"/>
                                 <connections>
                                     <action selector="volumen:" destination="TMM-Sb-oKL" eventType="valueChanged" id="nDY-Cx-VHd"/>
@@ -146,4 +154,7 @@
             <point key="canvasLocation" x="397" y="80"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="yuU-Hy-dSi"/>
+    </inferredMetricsTieBreakers>
 </document>

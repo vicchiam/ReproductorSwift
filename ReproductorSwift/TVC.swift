@@ -79,7 +79,6 @@ class TVC: UITableViewController {
         return cell
     }
     
-
     /*
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
@@ -123,9 +122,20 @@ class TVC: UITableViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         
-        if let detalle = segue.destinationViewController as? Detalle {
-           detalle.cancion = self.canciones[(self.tableView.indexPathForSelectedRow?.row)!]
+        if self.self.tableView.indexPathForSelectedRow?.row != nil{
+            if let detalle = segue.destinationViewController as? Detalle {
+                detalle.cancion = self.canciones[(self.tableView.indexPathForSelectedRow?.row)!]
+            }
         }
+        else{
+            let num = Int(arc4random_uniform(UInt32(self.canciones.count)))
+            print(num)
+            if let detalle = segue.destinationViewController as? Detalle {
+                detalle.cancion = self.canciones[num]
+            }
+        }
+        
+        
         
     }
     
